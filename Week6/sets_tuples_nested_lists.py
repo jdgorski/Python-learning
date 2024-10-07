@@ -1,177 +1,177 @@
 
 
-# # Sets##################################
-# # Sets are unordered collections of unique elements
-# # Sets are mutable
-# # Sets are defined by curly braces {}
-# #example of sets
-# set1 = {1, 2, 3, 4, 5}  # set of integers
-# set2 = {'apple', 'banana', 'cherry'}  # set of strings
-# set3 = {1, 2, 3, 'apple', 'banana'}  # mixed set
-# set4 = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}  # duplicate elements are removed
+# Sets##################################
+# Sets are unordered collections of unique elements
+# Sets are mutable
+# Sets are defined by curly braces {}
+#example of sets
+set1 = {1, 2, 3, 4, 5}  # set of integers
+set2 = {'apple', 'banana', 'cherry'}  # set of strings
+set3 = {1, 2, 3, 'apple', 'banana'}  # mixed set
+set4 = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}  # duplicate elements are removed
 
 
 
 
 
-# #access elements in a set
+#access elements in a set
 
-# print(1 in set1) # Output: True
-# print('apple' in set2) # Output: True
+print(1 in set1) # Output: True
+print('apple' in set2) # Output: True
 
-# # add elements to a set
+# add elements to a set
 
-# set1.add(6)
-# print(set1)
+set1.add(6)
+print(set1)
 
-# set2.add('fried chicken')
-# print(set2)
+set2.add('fried chicken')
+print(set2)
 
-# set3.add(34)
-# print(set3)
+set3.add(34)
+print(set3)
 
-# set4.add(25)
-# #remove elements from a set
+set4.add(25)
+#remove elements from a set
 
-# print(set1.remove(6))
-# print(set1)
+print(set1.remove(6))
+print(set1)
 
-# #check if an element is in a set
+#check if an element is in a set
 
-# print(1 in set1) # Output: True
+print(1 in set1) # Output: True
 
-# #find the length of a set
+#find the length of a set
 
-# print(len(set1)) # Output: 5
+print(len(set1)) # Output: 5
 
-# #clear a set
+#clear a set
 
-# set1.clear()
-# set2.clear()
-# print(set1) # Output: ()
-# print(set2) # Output: ()
-# #tuples##################################
-# # Tuples are ordered collections of elements
-# # Tuples are immutable
-# # Tuples are defined by parentheses ()
-# #example of tuples
-# tuple1 = (1, 2, 3, 4, 5)  # tuple of integers
-# tuple2 = ('apple', 'banana', 'cherry')  # tuple of strings
-# tuple3 = (1, 2, 3, 'apple', 'banana')  # mixed tuple
-# tuple4 = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5)  # duplicate elements are allowed
+set1.clear()
+set2.clear()
+print(set1) # Output: ()
+print(set2) # Output: ()
+#tuples##################################
+# Tuples are ordered collections of elements
+# Tuples are immutable
+# Tuples are defined by parentheses ()
+#example of tuples
+tuple1 = (1, 2, 3, 4, 5)  # tuple of integers
+tuple2 = ('apple', 'banana', 'cherry')  # tuple of strings
+tuple3 = (1, 2, 3, 'apple', 'banana')  # mixed tuple
+tuple4 = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5)  # duplicate elements are allowed
 
 
-# #access elements in a tuple
+#access elements in a tuple
 
-# print(tuple1[0]) # Output: 1 
-# print(tuple2[1]) # Output: 'banana'
-# print(tuple1[3]) # Output: 'apple'
+print(tuple1[0]) # Output: 1 
+print(tuple2[1]) # Output: 'banana'
+print(tuple1[3]) # Output: 'apple'
 
-# #find the length of a tuple
+#find the length of a tuple
 
-# print(len(tuple1))
-# print(len(tuple2))
+print(len(tuple1))
+print(len(tuple2))
 
 
-# #count the number of occurrences of an element in a tuple
-# print(tuple4.count(1))
-# print(tuple4.count('apple')) # Output: 1
+#count the number of occurrences of an element in a tuple
+print(tuple4.count(1))
+print(tuple4.count('apple')) # Output: 1
 
 
-# #find the index of an element in a tuple
+#find the index of an element in a tuple
 
-# print(tuple1.index(3)) # Output: 2 Where is the number: At the index 2 position
+print(tuple1.index(3)) # Output: 2 Where is the number: At the index 2 position
 
-# #convert a tuple to a list
+#convert a tuple to a list
 
 
-# print(list(tuple1))
+print(list(tuple1))
 
-# #convert a list to a tuple
+#convert a list to a tuple
 
-# print(tuple(list(tuple1))) # Output: (1, 2, 3, 4, 5)
+print(tuple(list(tuple1))) # Output: (1, 2, 3, 4, 5)
 
 
 
 
 
 
-# #######################tuples challenge#####################
-# # Challenge: Count the number of occurrences of the character 'v' in the text below.
-# # The text is converted to a tuple of characters and the target characters are 'v' and 'V'.
-# # The result is output to the console.
-# #queue the videos(2)
-# text = """Voilà! In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate.
-# This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation
-# of a by-gone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin vanguarding vice and
-# vouchsafing the violently vicious and voracious violation of volition.
+#######################tuples challenge#####################
+# Challenge: Count the number of occurrences of the character 'v' in the text below.
+# The text is converted to a tuple of characters and the target characters are 'v' and 'V'.
+# The result is output to the console.
+#queue the videos(2)
+text = """Voilà! In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate.
+This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation
+of a by-gone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin vanguarding vice and
+vouchsafing the violently vicious and voracious violation of volition.
 
 
-# The only verdict is vengeance; a vendetta, held as a votive, not in vain, for the value and veracity of such shall one day
-# vindicate the vigilant and the virtuous.
+The only verdict is vengeance; a vendetta, held as a votive, not in vain, for the value and veracity of such shall one day
+vindicate the vigilant and the virtuous.
 
 
-# Verily, this vichyssoise of verbiage veers most verbose, so let me simply add that it is my very good honor to meet you
-# and you may call me V."""
+Verily, this vichyssoise of verbiage veers most verbose, so let me simply add that it is my very good honor to meet you
+and you may call me V."""
 
 
-# # Convert the text to a tuple of characters
+# Convert the text to a tuple of characters
 
-# text_tuple = tuple(text)
-# print(text_tuple)
+text_tuple = tuple(text)
+print(text_tuple)
 
 
-# # Tuple to store the target characters
+# Tuple to store the target characters
 
 
 
 
 
 
-# # Count occurrences of 'v' or 'V' by filtering the text_tuple
+# Count occurrences of 'v' or 'V' by filtering the text_tuple
 
-# small_v = text_tuple.count('v')
+small_v = text_tuple.count('v')
 
 
 
-# captial_v = text_tuple.count('V')
+captial_v = text_tuple.count('V')
 
 
 
-# total_v = small_v + captial_v
+total_v = small_v + captial_v
 
-# # Output the result
-# print(f"The total number of 'v' characters: {total_v}")
+# Output the result
+print(f"The total number of 'v' characters: {total_v}")
 
 
 
-# # dictionarys Accessing a Value from a Nested List###############################
-# #Suppose we have a dictionary containing multiple lists as values, and you want to access a specific element from one of these lists.
-# # Define the dictionary
+# dictionarys Accessing a Value from a Nested List###############################
+#Suppose we have a dictionary containing multiple lists as values, and you want to access a specific element from one of these lists.
+# Define the dictionary
 
 
-# sample_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] 
-# print(sample_list[2][2])# Output: 9
-# # get length of the list
-# print(sample_list[2][1])
-# print(sample_list[1][-1])
-# print(sample_list[1][0])  # Output: 4
-# print(len(sample_list)) # Output: 3
-# #this is called a nested list
-# # Extract and print the second element from the first list
+sample_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] 
+print(sample_list[2][2])# Output: 9
+# get length of the list
+print(sample_list[2][1])
+print(sample_list[1][-1])
+print(sample_list[1][0])  # Output: 4
+print(len(sample_list)) # Output: 3
+#this is called a nested list
+# Extract and print the second element from the first list
 
 
 
-# sample_list_of_fruit = {"fruits": ["apple", "banana", "cherry"]}
-# # Extract and print the second fruit from the list
-# # Dictionary because of colon
-# print(sample_list_of_fruit["fruits"][1]) # banana
-# print(sample_list_of_fruit["fruits"][-1])
+sample_list_of_fruit = {"fruits": ["apple", "banana", "cherry"]}
+# Extract and print the second fruit from the list
+# Dictionary because of colon
+print(sample_list_of_fruit["fruits"][1]) # banana
+print(sample_list_of_fruit["fruits"][-1])
 
-# sample_list_of_lists = {"lists": [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}
-# print(sample_list_of_lists["lists"][1][2])
-# print(sample_list_of_lists["lists"][2][2])
-# # Extract and print the third element from the second list
+sample_list_of_lists = {"lists": [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}
+print(sample_list_of_lists["lists"][1][2])
+print(sample_list_of_lists["lists"][2][2])
+# Extract and print the third element from the second list
 
 
 
