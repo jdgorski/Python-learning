@@ -39,7 +39,7 @@ print(result)
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
 
 # Problem Set 3: String Methods
-# Upper & Lower:
+# Upper & +:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
 star = "MAY THE FORCE BE WITH YOU."
 print(star.lower())

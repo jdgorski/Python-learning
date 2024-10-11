@@ -10,7 +10,7 @@
 
 
 # # print(fruits[::2])  #every second fruit
-# # print(fruits[::-1]) #makes the list reversed
+# print(fruits[::-1]) #makes the list reversed
 
 
 # for fruit in fruits:
@@ -127,7 +127,7 @@ example_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 # # #Tuples are useful when wanting to store a collection of items that should not be changed
 
-# print(example_tuple.index(2))
+print(example_tuple.index(2))
 # lymeric = "peter pipe picked a peck of pickled peppers peppers" 
 
 
